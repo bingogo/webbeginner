@@ -264,6 +264,7 @@ describe("jasmine.Fixtures using real AJAX call", function() {
     jasmine.getFixtures().fixturesPath = defaultFixturesPath;
   });
 
+
   describe("when fixture file exists", function() {
     var fixtureUrl = "real_non_mocked_fixture.html";
 
